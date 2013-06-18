@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.IdentityModel.Tokens.JwtSecurityTokenHandler">
+    <Position X="0.5" Y="1.5" Width="2.75" />
+    <Members>
+      <Method Name="CanReadToken" Hidden="true" />
+      <Property Name="CanValidateToken" Hidden="true" />
+      <Property Name="CanWriteToken" Hidden="true" />
+      <Method Name="ClaimsIdentityFromJwt" Hidden="true" />
+      <Method Name="CreateActorValue" Hidden="true" />
+      <Method Name="CreateSecurityTokenReference" Hidden="true" />
+      <Property Name="DefaultTokenLifetimeInMinutes" Hidden="true" />
+      <Method Name="GetTokenTypeIdentifiers" Hidden="true" />
+      <Property Name="InboundAlgorithmMap" Hidden="true" />
+      <Method Name="JwtSecurityTokenHandler" Hidden="true" />
+      <Method Name="LoadCustomConfiguration" Hidden="true" />
+      <Property Name="MaxClockSkew" Hidden="true" />
+      <Property Name="MaxTokenSizeInBytes" Hidden="true" />
+      <Property Name="NameClaimType" Hidden="true" />
+      <Property Name="OutboundAlgorithmMap" Hidden="true" />
+      <Method Name="ReadToken" Hidden="true" />
+      <Property Name="RequireExpirationTime" Hidden="true" />
+      <Property Name="RequireSignedTokens" Hidden="true" />
+      <Property Name="RoleClaimType" Hidden="true" />
+      <Property Name="SignatureProviderFactory" Hidden="true" />
+      <Method Name="ValidateAudience" Hidden="true" />
+      <Method Name="ValidateIssuer" Hidden="true" />
+      <Method Name="ValidateLifetime" Hidden="true" />
+      <Method Name="ValidateSignature" Hidden="true" />
+      <Method Name="ValidateSigningToken" Hidden="true" />
+      <Method Name="WriteToken" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="JwtSecurityTokenRequirement" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.IdentityModel.Tokens.JwtSecurityTokenRequirement">
+    <Position X="5.5" Y="0.5" Width="3.25" />
+    <Members>
+      <Method Name="JwtSecurityTokenRequirement" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.IdentityModel.Tokens.SecurityTokenHandler" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.IdentityModel.Tokens.TokenValidationParameters">
+    <Position X="5.5" Y="2.75" Width="3.25" />
+    <Members>
+      <Method Name="TokenValidationParameters" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.IdentityModel.Tokens.JwtSecurityToken">
+    <Position X="0.5" Y="4.5" Width="2.75" />
+    <Members>
+      <Property Name="Actor" Hidden="true" />
+      <Method Name="JwtSecurityToken" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
